@@ -1,0 +1,21 @@
+.form_container{
+    width: 30%;
+
+
+}
+
+@media screen and (max-width: 700px) {
+    .form_container{
+        width: 65%;
+    }
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+form label {
+    text-align: start;
+    display: block; /* This ensures that labels are displayed on separate lines */
+  }
+  

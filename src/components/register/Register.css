@@ -1,0 +1,20 @@
+.form_container{
+    width: 30%;
+
+
+}
+
+@media screen and (max-width: 700px) {
+    .form_container{
+        width: 65%;
+    }
+    
+}
+
+/* In your Register.css file or your component's CSS */
+form label {
+    text-align: start;
+    display: block; /* This ensures that labels are displayed on separate lines */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
